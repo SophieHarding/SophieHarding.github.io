@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+/* {
+outline: 1px dotted lime;
+}*/
+
+
+body {
+    background-color: aliceblue;
+    margin: 0;
+    font-family: 'Cormorant Unicase', serif;
+    
+}
+/*name starts here*/
+
+#name {
+    background-color: aliceblue;
+    color: darkslategrey;
+    height: 90px;
+     padding-bottom: 20px;
+    border-bottom:3px solid white;
+    margin: 0;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+#name h1 {
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 20px;
+    
+}
+
+/*links start here*/
+
+/*need to get links into center*/
+
+
+#header {
+    background-color: darkslategrey;
+    color: rosybrown;
+    height: 80px;
+    border-bottom: 3px solid white;
+    margin: 0px;
+}
+
+#nav {
+    display: grid;
+grid-template-columns: 100px auto;
+    margin-left: auto;
+margin-right: auto;
+max-width: 950px;
+}
+
+.links {
+    
+   margin-top: 110px;
+   font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.links a {
+color: rosybrown;
+    font-weight: bold;
+padding-left: 40px;
+padding-right:100px;
+text-decoration: none;
+}
+
+/*banner starts here*/
+
+.banner {
+background-color: aliceblue;
+padding: 20px 0;
+text-align: center;
+}
+
+.banner img {
+max-width: 1300px;
+width: 100%;
+}
+
+/*ABOUT ME*/
+
+#äbout-me {
+      background-color: darkslategrey;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 20px;
+  
+}
+
+#text {
+    color: aliceblue;
+    font-size: 25px;
+}
+
+
+.salmon {
+    color: #75aa90;
+    font-weight: bold;
+}
+
+/*PORTFOLIO*/
+
+
+#portfolio {
+     display: grid;
+   grid-template-columns: repeat(3 1fr)  ;
+    grid-template-rows:repeat(4 1fr) ;
+     background-color: aliceblue;
+    color: darkslategrey;
+    padding: 20px 0;
+    margin: 20px;
+     height: 1400px;
+    text-align: center;
+    
+}
+
+.writing {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.images img {
+max-width: 400px;
+width: 70%;
+    padding: 5px;
+}
+
+
+/*CONTACT PAGE STARTS HERE*/
+
+#contact {
+ background-color: darkslategrey ;
+    color: aliceblue;
+   padding: 20px;
+
+}
+
+
+.box {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 3fr;
+    padding: 20px;
+   
+}
+
+.box input,
+.box textarea {
+    background-color: #75aa90;
+    border: none;
+    border-radius: 6px;
+    color: aliceblue;
+    font-size: 0.9em;
+    margin: 0.7em 0;
+    padding: 20px;
+    width: 90%;
+}
+
+
+/*footer starts here*/
+
+#footer {
+    background-color: darkslategrey;
+    height: 80px;
+    text-align: center;
+    color: aliceblue;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
